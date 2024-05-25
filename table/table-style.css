@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+img{
+    width: 200px;
+    height: 200px;
+}
+table, th, td{
+    border: solid 1px black;
+}
+table{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: black;
+    font-family: "MS ゴシック", serif;
+}
