@@ -1,0 +1,21 @@
+@charset "UTF-8;";
+
+a{
+    font-size: 0.7rem;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+.button-color{
+    color: green;
+}
+
+button{
+    color: red;
+}
+
+u{
+    color: red;
+}

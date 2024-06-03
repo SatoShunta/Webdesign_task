@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <form action="#" method="post">
+    <h1>会員登録</h1>
+    <p>以下の情報を入力して、完了ボタンを押してください。</p>
+    <fieldset>
+        <legend>お客様情報</legend>
+        姓:<input type="text" name="last_name"><br>
+        <br>
+        名:<input type="text" name="first_name"><br>
+        <br>
+        住所:<input type="text" name="address"><br>
+        メールアドレス:<input type="email" name="email"><br>
+        電話番号:<input type="tel" name="tel"><br>
+        生年月日:<input type="data" name="birthday"><br>
+        年齢:<input type="number" name="age" max="150" min="0">&nbsp;歳<br>
+        性別:<label><input type="radio" name="gender" value="man">&nbsp;男</label>
+             <label><input type="radio" name="gender" value="man">&nbsp;女</label>
+             <label><input type="radio" name="gender" value="man">&nbsp;その他</label>
+    </fieldset>
+    <fieldset>
+        <legend>パスワード</legend>
+        <p>英数字8文字以上で入力してください。</p>
+        パスワード:<input type="password" name="password">
+        <p>確認するため<u>もう一度同じパスワード</u>を入力してください。</p>
+        パスワード(再度):<input type="password" name="password_confirm">
+    </fieldset>
+    <fieldset>
+        <legend>希望メールマガジン</legend>
+        <p>希望するメールマガジンを選択してください。</p>
+        <label><input type="radio" name="magazine" value="1">&nbsp;IT</label>
+        <label><input type="radio" name="magazine" value="1">&nbsp;営業</label>
+        <label><input type="radio" name="magazine" value="1">&nbsp;接客</label>
+        <label><input type="radio" name="magazine" value="1">&nbsp;医療</label>
+    </fieldset>
+    <fieldset>
+        <legend>利用規約</legend>
+        <a href="terms.html" target="_blank">利用規約はこちら</a><br>
+        <label><input type="radio" name="terms" value="agree">&nbsp;利用規約に同意する</label>
+    </fieldset>
+    <button class="button-color" type="resey">入力した内容をリセットする</button>
+    <button type="submit">完了</button>
+    </form>
+</body>
+</html>
