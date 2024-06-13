@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.color_red{
+    border-radius: 5px;
+    background-color: red;
+    font-size: 10px;
+}
+
+table, th, td{
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+span{
+    font-size: 10px;
+}
+
+th{
+    background-color: dimgrey;
+    color: white;
+}
+
+td{
+    background-color: darkgray;
+}
+
+.address{
+    text-align: left;
+    vertical-align: top;
+}
+
+.fullname{
+    text-align: left;
+    vertical-align: top;
+}
+
+.pull-down{
+    text-align: left;
+    vertical-align: top;
+}
+
+.opinion{
+    text-align: left;
+    vertical-align: top;
+}
